@@ -22,11 +22,15 @@ Those controls are wired together and layouted in the class `ColorPalettePane`.
 The `ColorPalettePane` also adds the top menu bar and the `Darken` and `Brighten`
 buttons for which no custom control is needed.
 
+The `ColorPalettePane` also takes over the handling of changes of said controls and updates all
+other controls respectively.
+
 ## UML disclaimer
 
-The UML has gotten a bit bigger than expected, because of the dependencies to JavaFX.
+The UML has gotten a bit bigger than initially expected, because of the dependencies to JavaFX.
 Fully qualified class names/paths for parameter and return types have mostly been
-omitted because of mentioned size issues.
+omitted because of mentioned size issues. Also, the JavaFX classes are added without properties
+and methods, as the diagram would have exploded in size as well.
 
 The additional XML file is the saved state of [draw.io](https://www.draw.io), with which
 the diagram was created.
