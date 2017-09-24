@@ -27,3 +27,6 @@ buttons for which no custom control is needed.
 The UML has gotten a bit bigger than expected, because of the dependencies to JavaFX.
 Fully qualified class names/paths for parameter and return types have mostly been
 omitted because of mentioned size issues.
+
+The additional XML file is the saved state of [draw.io](https://www.draw.io), with which
+the diagram was created.
